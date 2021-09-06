@@ -1,0 +1,32 @@
+{
+    "name": "serialToI2c",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "bit": "github:hokarimasahiro/pxt-bitoperation#690e01af2101578ae1e777726145d4e2dac45021",
+        "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#2b458eef5787353c9592abaf3f176105f102b51b",
+        "pxt-i2cIO": "github:hokarimasahiro/pxt-i2cio#897769e0a25b0ad69081413a9c5870b22ed76e4e"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.68",
+        "tag": "v3.0.68",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3fd936c8e507d2318fab615facb37d0f07179fb",
+        "target": "4.0.11",
+        "pxt": "6.0.39",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
